@@ -62,4 +62,48 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .link {
+    padding: 5px;
+  }
+  .main-container {
+    display: flex;
+    align-items: center;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .shape-container {
+    flex: 1;
+    position: relative;
+  }
+  .cirle {
+    position: absolute;
+  }
+  /* use pixels to move circles */
+  .one {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+  }
+  .two {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+  }
+  .three {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+  }
 }
