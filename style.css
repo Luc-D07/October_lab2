@@ -75,7 +75,8 @@ body {
   }
   .main-container {
     display: flex;
-    align-items: center;
+    padding-top: 200px;
+    /* align-items: center; */
   }
   .main-content {
     flex: 1;
@@ -84,26 +85,35 @@ body {
     flex: 1;
     position: relative;
   }
-  .cirle {
+  .circle {
     position: absolute;
   }
   /* use pixels to move circles */
   .one {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background-color: rgba(207, 130, 213, 0.6);
+    right: 0;
+    top: 45px;
+    z-index: 2;
   }
   .two {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: rgba(247, 193, 162, 0.7);
+    right: 0;
+    top: 95px;
+    z-index: 3;
   }
   .three {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     background-color: rgba(247, 136, 167, 0.6);
+    right: 40px;
+    top: 30px;
+    z-index: 1;
   }
 }
